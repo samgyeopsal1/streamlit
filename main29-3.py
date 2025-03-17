@@ -3,7 +3,7 @@ import streamlit as st
 import datetime
 import pyupbit
 
-d = st.date_input("날짜를 입력하세요.",datetime.date.today())
+d = st.date_input("날짜를 입력하세요",datetime.date.today())
 
 st.write("비트코인 1일 차트")
 
